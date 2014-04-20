@@ -1,0 +1,285 @@
+/*
+Estilos pagína amilau
+Desarrollado: Antonio Jose Gil Cabuya;
+Año: 2011;
+Proyecto: Tarjetas Amilau;
+CSS3
+*/
+@import url(http://fonts.googleapis.com/css?family=Italianno);
+@import url(http://fonts.googleapis.com/css?family=Alegreya);
+*
+{
+	color: black;
+	font-family: 'Alegreya', serif;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+
+body
+{
+	background-repeat: inherit;
+	background: #0e3647; /* Old browsers */
+	background: linear-gradient(to bottom, #0e3647 0%,#61b9de 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e3647', endColorstr='#61b9de',GradientType=0 ); /* IE6-9 */
+	font: normal 100% 'Bentham', serif;
+	margin: 0 auto;
+	width: 100%;
+}
+
+h1
+{
+	background:url(../images/logo.png) no-repeat 0 0;
+	display: inline-block;
+	height:3.1em;
+	width:4em;
+	zoom: 1;
+	*display: inline;
+}
+h1 span
+{
+	position:absolute;
+	text-indent: -10000px;
+}
+h2
+{
+	color: white;
+	display: inline-block;
+	font: 2em 'Italianno', cursive;
+	position: absolute;
+	top: 0.4em;
+	width:3.4em;
+	zoom: 1;
+	*display: inline;
+}
+footer {
+	background: #abd55f; /* Old browsers */
+	background: linear-gradient(to bottom,  #abd55f 0%,#95c633 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#abd55f', endColorstr='#95c633',GradientType=0 ); /* IE6-9 */
+	height: 4.3em;
+}
+
+footer p {
+	color: white;
+	padding-top: 1em;
+	text-align: center;
+}
+header {
+	border-bottom: 1px solid #A2CF49;
+	width: 100%;
+}
+input[type="radio"] {
+	-webkit-appearance:none;	/* Remove Safari default */
+	background: url("../images/radio.png") 0 0 no-repeat;
+	height: 20px;
+	width: 20px;
+}
+
+input[type="radio"]:active, input[type="radio"]:checked {
+	background: url("../images/radio.png") -21px 0 no-repeat;
+}
+section {
+	margin: 0 auto;
+	padding-left: 1em;
+	padding-top: 1.5em;
+	width: 100%;
+}
+.bloqFlo{
+	display: inline-block;
+	zoom:1;
+	*display: inline;
+}
+.bloqFlo ul {
+	display: inline-block;
+	overflow: hidden;
+	width: 101.85185185185186%;
+	margin: 0 -0.9259259259259258%;
+}
+.bloqFlo ul li{
+	width: 30%;
+	margin: 0 0.9259259259259258%;
+	border-bottom: none;
+	margin-bottom: 20px;
+	display: inline-block;
+	overflow: hidden;
+}
+.bmenu {
+	background-clip:border-box;
+	background-image:url('../images/btn2.png');
+	background-position:bottom left, top right, 0 0, 0 0;
+	background-position:bottom left;
+	background-repeat:no-repeat;
+	border-radius:10px;
+	border:1px solid black;
+	box-shadow:0 0 1px #fff inset;
+	cursor:pointer;
+	display:inline-block;
+	font-size:0.9em;
+	font-weight:bold;
+	padding: 1em 2em;
+	text-transform: uppercase;
+	transition:background-position 1s;
+	vertical-align:baseline;
+	white-space:nowrap;
+
+}
+.bmenu:hover{
+	background-position:top left, bottom right, 0 0, 0 0;
+	background-position:top left;
+}
+.bmenu:active{
+	color: white;
+}
+.descDetail{
+	position: relative;
+}
+.imgDetail img{
+	box-shadow: 5px 8px 15px #000000;
+	width: 30%;
+}
+.imagesBor img {
+	box-shadow: 4px 6px 8px #000000;
+	transition:box-shadow 1s;
+}
+.imagesBor img:hover, .Imgcenter img:hover {
+	box-shadow: 0px -1px 75px #D3D3D3;
+}
+.Imgcenter img{
+	box-shadow: 2px 5px 11px #000000;
+	transition:box-shadow 1s;
+}
+.vermas {
+	background-color:#79bbff;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	border-radius:5px;
+	border:1px solid #337bc4;
+	box-shadow: 3px 4px 0px 0px #1564ad;
+	color: #000000;
+	display:inline-block;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5',GradientType=0);
+	font: bold 10px arial;
+	padding: 1%;
+	position: absolute;
+	right: 4%;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+	top: -3em;
+}
+.vermas:hover {
+	background-color:#378de5;
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff',GradientType=0);
+}
+.vermas:active {
+	top:-2.8em;
+}
+#bloqimg{
+
+}
+#content {
+	margin: 0 auto;
+	width: 90%;
+}
+#cleft {
+	vertical-align: top;
+	width: 25%;
+}
+#cright {
+	position: relative;
+	width: 70%;
+}
+#cright div {
+	position: relative;
+	z-index: 2;
+}
+#descLeft {
+	display: inline-block;
+	width: 18%;
+	zoom: 1;
+	*display: inline;
+}
+#descLeft img{
+	width: 100%;
+}
+#descCentral {
+	display: inline-block;
+	text-align: center;
+	width: 61.2%;
+	zoom: 1;
+	*display: inline;
+}
+#descCentral img{
+	width: 91.4%;
+}
+#descRight {
+	display: inline-block;
+	width: 18%;
+	zoom: 1;
+	*display: inline;
+}
+#descRight img{
+	width: 100%;
+}
+#descDesp
+{
+	height: 2.5em;
+}
+#descDesp ol {
+	padding-top: 0.5em;
+	text-align: center;
+}
+#descDesp ol li {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+#logo{
+	display: inline-block;
+	width: 25%;
+	zoom: 1;
+	*display: inline;
+}
+#MenuPrincipal {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+#MenuPrincipal ul li{
+	float: left;
+	height: 3.3em;
+	margin-left: 0.5em;
+}
+#outBau{
+	background-color: #77d42a;
+	box-shadow:inset 0px 0px 0px 3px #caefab;
+}
+#outIni {
+	background-color:#3d94f6;
+	box-shadow:inset 0px 0px 0px 3px #97c4fe;
+}
+#outBod {
+	background-color:#fbb450;
+	box-shadow:inset 0px 0px 0px 3px #ffe0b5;
+}
+#outYears{
+	background-color:#599bb3;
+	box-shadow:inset 0px 0px 0px 3px #276873;
+}
+#outOthers {
+	background-color:#c123de;
+	box-shadow:inset 0px 0px 0px 3px #e184f3;
+}
+#outContac{
+	background-color:#ff5bb0;
+	box-shadow:inset 0px 0px 0px 3px #fbafe3;
+}
+#vacio {
+	position: absolute !important;
+	top: 2em;
+	left: 2em;
+	background: linear-gradient(to bottom, #41aebd 0%,#24626a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41aebd', endColorstr='#24626a',GradientType=0 );
+	padding: 16% 40.4%;
+	z-index: 0 !important;
+}
