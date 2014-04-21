@@ -1,7 +1,7 @@
 /*
 Estilos pagína amilau
 Desarrollado: Antonio Jose Gil Cabuya;
-Año: 2011;
+Año: 2014;
 Proyecto: Tarjetas Amilau;
 CSS3
 */
@@ -85,24 +85,20 @@ section {
 	padding-top: 1.5em;
 	width: 100%;
 }
-.bloqFlo{
-	display: inline-block;
-	zoom:1;
-	*display: inline;
-}
+
 .bloqFlo ul {
-	display: inline-block;
-	overflow: hidden;
-	width: 101.85185185185186%;
-	margin: 0 -0.9259259259259258%;
+    display: inline-block;
+    overflow: hidden;
+    width: 101.85185185185186%;
+    margin: 0 -0.9259259259259258%;
 }
 .bloqFlo ul li{
-	width: 30%;
-	margin: 0 0.9259259259259258%;
-	border-bottom: none;
-	margin-bottom: 20px;
-	display: inline-block;
-	overflow: hidden;
+    width: 22%;
+    margin: 0 0.9259259259259258%;
+    border-bottom: none;
+    margin-bottom: 20px;
+    display: inline-block;
+    overflow: hidden;
 }
 .bmenu {
 	background-clip:border-box;
@@ -131,9 +127,7 @@ section {
 .bmenu:active{
 	color: white;
 }
-.descDetail{
-	position: relative;
-}
+
 .imgDetail img{
 	box-shadow: 5px 8px 15px #000000;
 	width: 30%;
@@ -149,90 +143,52 @@ section {
 	box-shadow: 2px 5px 11px #000000;
 	transition:box-shadow 1s;
 }
-.vermas {
-	background-color:#79bbff;
-	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
-	border-radius:5px;
-	border:1px solid #337bc4;
-	box-shadow: 3px 4px 0px 0px #1564ad;
-	color: #000000;
-	display:inline-block;
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5',GradientType=0);
-	font: bold 10px arial;
-	padding: 1%;
-	position: absolute;
-	right: 4%;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #528ecc;
-	top: -3em;
-}
-.vermas:hover {
-	background-color:#378de5;
-	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff',GradientType=0);
-}
-.vermas:active {
-	top:-2.8em;
-}
-#bloqimg{
 
-}
 #content {
 	margin: 0 auto;
 	width: 90%;
 }
-#cleft {
-	vertical-align: top;
-	width: 25%;
-}
-#cright {
-	position: relative;
-	width: 70%;
-}
-#cright div {
-	position: relative;
-	z-index: 2;
-}
 #descLeft {
-	display: inline-block;
-	width: 18%;
-	zoom: 1;
-	*display: inline;
+    display: inline-block;
+    width: 18%;
+    zoom: 1;
+    *display: inline;
 }
 #descLeft img{
-	width: 100%;
+    width: 100%;
 }
 #descCentral {
-	display: inline-block;
-	text-align: center;
-	width: 61.2%;
-	zoom: 1;
-	*display: inline;
+    display: inline-block;
+    text-align: center;
+    width: 61.2%;
+    zoom: 1;
+    *display: inline;
 }
 #descCentral img{
-	width: 91.4%;
+    width: 91.4%;
 }
 #descRight {
-	display: inline-block;
-	width: 18%;
-	zoom: 1;
-	*display: inline;
+    display: inline-block;
+    width: 18%;
+    zoom: 1;
+    *display: inline;
 }
 #descRight img{
-	width: 100%;
+    width: 100%;
 }
+#d
 #descDesp
 {
-	height: 2.5em;
+    height: 2.5em;
 }
 #descDesp ol {
-	padding-top: 0.5em;
-	text-align: center;
+    padding-top: 0.5em;
+    text-align: center;
 }
 #descDesp ol li {
-	display: inline-block;
-	zoom: 1;
-	*display: inline;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
 }
 #logo{
 	display: inline-block;
@@ -275,11 +231,12 @@ section {
 	box-shadow:inset 0px 0px 0px 3px #fbafe3;
 }
 #vacio {
-	position: absolute !important;
-	top: 2em;
-	left: 2em;
-	background: linear-gradient(to bottom, #41aebd 0%,#24626a 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41aebd', endColorstr='#24626a',GradientType=0 );
-	padding: 16% 40.4%;
-	z-index: 0 !important;
+    /*se remplaza por canvas se utiliza para verificar como deberia verse.*/
+    position: absolute;
+    top: 18em;
+    left: 10em;
+    background: linear-gradient(to bottom, #41aebd 0%,#24626a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41aebd', endColorstr='#24626a',GradientType=0 );
+    padding: 20% 38%;
+    z-index: -1 !important;
 }
