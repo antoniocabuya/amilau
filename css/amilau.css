@@ -7,6 +7,7 @@ CSS3
 */
 @import url(http://fonts.googleapis.com/css?family=Italianno);
 @import url(http://fonts.googleapis.com/css?family=Alegreya);
+@import url(http://fonts.googleapis.com/css?family=Playball);
 *
 {
 	color: black;
@@ -86,6 +87,9 @@ section {
 	width: 100%;
 }
 
+.bloqFlo{
+    text-align: center;
+}
 .bloqFlo ul {
     display: inline-block;
     overflow: hidden;
@@ -99,6 +103,10 @@ section {
     margin-bottom: 20px;
     display: inline-block;
     overflow: hidden;
+    transition: 1.5s ease;
+}
+.bloqFlo ul li:hover{
+    transform : rotateY(180deg);
 }
 .bmenu {
 	background-clip:border-box;
@@ -127,7 +135,26 @@ section {
 .bmenu:active{
 	color: white;
 }
-
+.ffiltros {
+    background-image:url('../images/btn2.png');
+    background-repeat:repeat-x;
+    border-radius:10px;
+    margin-bottom: 2em;
+    padding: 0.5em;
+    text-align: center;
+}
+.ffiltros p{
+    font: 1em 'Playball',normal;
+}
+.ffiltros input {
+    margin-right: 10%;
+    width: 45%;
+    font-size: 1.2em;
+}
+.ffiltros select{
+    width: 10em;
+    font-size: 1.2em;
+}
 .imgDetail img{
 	box-shadow: 5px 8px 15px #000000;
 	width: 30%;
@@ -143,7 +170,30 @@ section {
 	box-shadow: 2px 5px 11px #000000;
 	transition:box-shadow 1s;
 }
-
+.outBau{
+    background-color: #77d42a;
+    box-shadow:inset 0px 0px 0px 3px #caefab;
+}
+.outIni {
+    background-color:#3d94f6;
+    box-shadow:inset 0px 0px 0px 3px #97c4fe;
+}
+.outBod {
+    background-color:#fbb450;
+    box-shadow:inset 0px 0px 0px 3px #ffe0b5;
+}
+.outYears{
+    background-color:#599bb3;
+    box-shadow:inset 0px 0px 0px 3px #276873;
+}
+.outOthers {
+    background-color:#c123de;
+    box-shadow:inset 0px 0px 0px 3px #e184f3;
+}
+.outContac{
+    background-color:#ff5bb0;
+    box-shadow:inset 0px 0px 0px 3px #fbafe3;
+}
 #content {
 	margin: 0 auto;
 	width: 90%;
@@ -206,30 +256,7 @@ section {
 	height: 3.3em;
 	margin-left: 0.5em;
 }
-#outBau{
-	background-color: #77d42a;
-	box-shadow:inset 0px 0px 0px 3px #caefab;
-}
-#outIni {
-	background-color:#3d94f6;
-	box-shadow:inset 0px 0px 0px 3px #97c4fe;
-}
-#outBod {
-	background-color:#fbb450;
-	box-shadow:inset 0px 0px 0px 3px #ffe0b5;
-}
-#outYears{
-	background-color:#599bb3;
-	box-shadow:inset 0px 0px 0px 3px #276873;
-}
-#outOthers {
-	background-color:#c123de;
-	box-shadow:inset 0px 0px 0px 3px #e184f3;
-}
-#outContac{
-	background-color:#ff5bb0;
-	box-shadow:inset 0px 0px 0px 3px #fbafe3;
-}
+
 #vacio {
     /*se remplaza por canvas se utiliza para verificar como deberia verse.*/
     position: absolute;
